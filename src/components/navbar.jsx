@@ -88,16 +88,16 @@ class Navbar extends Component {
         teamLink = {};
         
         switch(window.location.href){
-            case 'https://www.grantusfunding.com/pricingplans':
+            case 'localhost:3000/pricingplans':
                 pricingPlansLink = activeLink;
                 break;
-            case 'https://www.grantusfunding.com/contact':
+            case 'localhost:3000/contact':
                 contactLink = activeLink;
                 break;
-            case 'https://www.grantusfunding.com/team':
+            case 'localhost:3000/team':
                 teamLink = activeLink;
                 break;
-            case 'https://www.grantusfunding.com/freetrial':
+            case 'localhost:3000/freetrial':
                 freeTrialLink = activeLink;
                 break;
             default :
